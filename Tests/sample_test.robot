@@ -20,4 +20,4 @@ Example of connecting to Lambdatest via Robot Framework
 	Input text  id:sampletodotext  Yey Let's add it to list
 	Click button  id:addbutton
 	${response}    Get Text    xpath=/html/body/div/div/div/ul/li[6]/span
-	Should Be Equal As Strings    ${response}    Yey Let's add it to list
+	Should Be Equal As Strings    ${response}    Yeys Let's add it to list
